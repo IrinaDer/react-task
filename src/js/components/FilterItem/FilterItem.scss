@@ -1,0 +1,22 @@
+.filter a {
+	display: inline-block;
+	height: 45ph;
+	line-height: 45px;
+	padding: 0px 25px;
+	margin: 0px 5px;
+	border-radius: 5px;
+	color: white;
+	background: #5ac394;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: Arial;
+	transition: .4s ease-in-out;
+	text-transform: capitalize;
+	letter-spacing: .5px;
+	&:hover {
+		background: #76d8ac;
+	}
+	&.active {
+		background: #e01212;
+	}
+}
